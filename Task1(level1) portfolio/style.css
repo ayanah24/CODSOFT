@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+    color: #333;
+}
+
+nav {
+    background: #444;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-content {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.header-content h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.header-content p {
+    font-size: 1.2em;
+}
+
+.social-icons {
+    margin: 20px 0;
+}
+
+.social-icons img {
+    width: 40px;
+    margin: 0 10px;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+.buttons .btn {
+    background: #444;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.buttons .btn:hover {
+    background: #333;
+}
+
+.header-image {
+    text-align: center;
+    padding: 20px;
+}
+
+.header-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+}
+
+section h2 {
+    margin: 0 0 10px;
+    font-size: 2em;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+section p {
+    font-size: 1.1em;
+}
+
+.project {
+    margin: 20px 0;
+}
+
+
+footer {
+    background: #444;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
